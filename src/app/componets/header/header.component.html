@@ -1,0 +1,27 @@
+
+
+  
+<mat-toolbar color="primary">
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon" mat-button [matMenuTriggerFor]="menu">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item>Iniciar sesion</button>
+    <button mat-menu-item>inicair sesion administardor</button>
+  </mat-menu>
+  <span>My App</span>
+  <span class="example-spacer"></span>
+  <button  mat-button [matMenuTriggerFor]= "afterMenu"> Cursos </button> 
+  <mat-menu #afterMenu ="matMenu"  xPosition="after"> 
+    <button  mat-menu-item > Guitarra </button> 
+    <button  mat-menu-item > Piano </button> 
+  </mat-menu>
+  <button  mat-button [matMenuTriggerFor]= "afterMenu"> Tienda </button> 
+  <mat-menu #afterMenu ="matMenu"  xPosition="after"> 
+    <button  mat-menu-item > Elemento 1 </button> 
+    <button  mat-menu-item > Elemento 2 </button> 
+  </mat-menu>
+  
+</mat-toolbar>
+
+
