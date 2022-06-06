@@ -5,6 +5,7 @@ import { FotherComponent } from './fother/fother.component';
 import { CardComponent } from './card/card.component';
 import { FormularioComponent } from './formulario/formulario.component';
 import { MaterialModule } from '../material/material.module';
+import { BannerComponent } from './banner/banner.component';
 
 
 
@@ -13,7 +14,8 @@ import { MaterialModule } from '../material/material.module';
     HeaderComponent,
     FotherComponent,
     CardComponent,
-    FormularioComponent
+    FormularioComponent,
+    BannerComponent
   ],
   exports:[
     HeaderComponent
