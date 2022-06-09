@@ -18,7 +18,11 @@ import { BannerComponent } from './banner/banner.component';
     BannerComponent
   ],
   exports:[
-    HeaderComponent
+    HeaderComponent,
+    FotherComponent,
+    CardComponent,
+    FormularioComponent,
+    BannerComponent
   ],
   imports: [
     CommonModule,
