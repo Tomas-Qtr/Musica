@@ -7,9 +7,46 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CardComponent implements OnInit {
 
-  constructor() { }
+  public materias: any = [];
+
+  constructor() {
+    this.materias = [
+      {
+        nombre:'guitarra',
+        subtitulo:'Esteban Lamote',
+        imagen:'',
+        texto:''
+
+      },
+      {
+        nombre:'Piano',
+        subtitulo:'Huho Sanchez',
+        imagen:'',
+        texto:''
+
+      },
+      {
+        nombre:'Bateria',
+        subtitulo:'Andres Iniesta',
+        imagen:'',
+        texto:''
+
+      },
+      {
+        nombre:'Bajo',
+        subtitulo:'Andres Puyol',
+        imagen:'',
+        texto:''
+
+      },
+    ]
+   }
 
   ngOnInit(): void {
   }
 
 }
+
+/**
+ * editar dinos
+ */
